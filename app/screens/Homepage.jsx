@@ -71,6 +71,7 @@ export default function Homepage() {
   const { current, location } = weather;
 
   return (
+    
     <View className="flex-1 relative h-full w-full">
       <StatusBar style="none" />
       <Image

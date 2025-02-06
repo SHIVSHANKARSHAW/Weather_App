@@ -1,7 +1,6 @@
-import dotenv from 'dotenv';
-dotenv.config();
+import {API_KEY} from "../../apiKey"
 
-export const apikey = process.env.API_KEY;
+export const apikey = API_KEY;
 
 export const weatherImg = {
     'Partly cloudy': require('../../assets/images/partlycloudy.png'),
